@@ -1,0 +1,24 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Databricks / Spark generated data
+*.delta/
+_checkpoints/
+
+# Local configuration / secrets
+.env
+*.secret
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
